@@ -1,4 +1,4 @@
-import{j as o}from"./jsx-runtime-D_zvdyIk.js";import{r as n}from"./index-D4lIrffr.js";import{_ as t}from"./iframe-DAk1UVSj.js";import{F as MRe}from"./index.esm-DSfQAZ2o.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";/**
+import{j as o}from"./jsx-runtime-D_zvdyIk.js";import{r as n}from"./index-D4lIrffr.js";import{_ as t}from"./iframe-CxD3jCTl.js";import{S as MRe}from"./index.esm-CY5qUBc6.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";/**
  * @license @tabler/icons-react v3.31.0 - MIT
  *
  * This source code is licensed under the MIT license.
