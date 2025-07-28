@@ -1,0 +1,7 @@
+import{j as s}from"./jsx-runtime-D_zvdyIk.js";import{d as a,f as m}from"./index.esm-BkAsg0YN.js";import"./index-D4lIrffr.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";const v={title:"Components/BadgeClose",component:a},e=r=>s.jsx(a,{...r});e.args={color:"red"};e.argTypes={color:{description:"The color of the badge",control:{type:"select"},options:m}};const o=()=>s.jsx("div",{className:"gap-x-md flex",children:m.map(r=>s.jsx(a,{color:r},r))});e.__docgenInfo={description:"",methods:[],displayName:"Playground"};o.__docgenInfo={description:"",methods:[],displayName:"Overview"};e.__docgenInfo={description:"",methods:[],displayName:"Playground"};o.__docgenInfo={description:"",methods:[],displayName:"Overview"};var t,d,n;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`(args: React.ComponentProps<typeof BadgeClose> & Record<string, any>) => {
+  return <BadgeClose {...args} />;
+}`,...(n=(d=e.parameters)==null?void 0:d.docs)==null?void 0:n.source}}};var c,p,i;o.parameters={...o.parameters,docs:{...(c=o.parameters)==null?void 0:c.docs,source:{originalSource:`() => {
+  return <div className="gap-x-md flex">
+      {BadgeColors.map(color => <BadgeClose key={color} color={color} />)}
+    </div>;
+}`,...(i=(p=o.parameters)==null?void 0:p.docs)==null?void 0:i.source}}};const x=["Playground","Overview"];export{o as Overview,e as Playground,x as __namedExportsOrder,v as default};
