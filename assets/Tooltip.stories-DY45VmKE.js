@@ -1,4 +1,4 @@
-import{j as c}from"./jsx-runtime-D_zvdyIk.js";import{r as i}from"./index.esm-ANRLJ7JX.js";import"./index-D4lIrffr.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";const h={component:i,title:"Components/Tooltip"},t={args:{content:"This is a tooltip",children:c.jsx("button",{children:"Hover me"})}},o={args:{content:"Tooltip at the bottom",placement:"bottom",children:c.jsx("button",{children:"Hover me"})}};var e,r,n;t.parameters={...t.parameters,docs:{...(e=t.parameters)==null?void 0:e.docs,source:{originalSource:`{
+import{j as c}from"./jsx-runtime-D_zvdyIk.js";import{r as i}from"./index.esm-2vONa0VE.js";import"./index-D4lIrffr.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";const h={component:i,title:"Components/Tooltip"},t={args:{content:"This is a tooltip",children:c.jsx("button",{children:"Hover me"})}},o={args:{content:"Tooltip at the bottom",placement:"bottom",children:c.jsx("button",{children:"Hover me"})}};var e,r,n;t.parameters={...t.parameters,docs:{...(e=t.parameters)==null?void 0:e.docs,source:{originalSource:`{
   args: {
     content: "This is a tooltip",
     children: <button>Hover me</button>
