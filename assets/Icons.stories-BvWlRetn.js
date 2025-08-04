@@ -1,5 +1,5 @@
 const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./IconNumber123-DSDAmR8j.js","./index-D4lIrffr.js"])))=>i.map(i=>d[i]);
-import{j as o}from"./jsx-runtime-D_zvdyIk.js";import{c as t,a as aRe,b as rRe,I as de}from"./IconNumber123-DSDAmR8j.js";import{_ as e}from"./iframe-DtJQiw1V.js";import{i as iRe}from"./index.esm-Cn46w_Lm.js";import"./index-D4lIrffr.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";/**
+import{j as o}from"./jsx-runtime-D_zvdyIk.js";import{c as t,a as aRe,b as rRe,I as de}from"./IconNumber123-DSDAmR8j.js";import{_ as e}from"./iframe-CTEzF7Zg.js";import{i as iRe}from"./index.esm-Cn46w_Lm.js";import"./index-D4lIrffr.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";/**
  * @license @tabler/icons-react v3.31.0 - MIT
  *
  * This source code is licensed under the MIT license.
