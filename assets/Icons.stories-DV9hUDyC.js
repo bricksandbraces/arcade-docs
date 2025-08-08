@@ -1,5 +1,5 @@
 const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./IconNumber123-BQjgxgLN.js","./createReactComponent-CjakwVnM.js","./index-D4lIrffr.js","./IconUpload-BXppmzGs.js"])))=>i.map(i=>d[i]);
-import{j as l}from"./jsx-runtime-D_zvdyIk.js";import{c as t}from"./createReactComponent-CjakwVnM.js";import{a as tRe,b as oRe,I as ne}from"./IconNumber123-BQjgxgLN.js";import{I as lRe,a as de,c as aRe,b as rRe}from"./IconUpload-BXppmzGs.js";import{_ as e}from"./iframe-x-u1JW3s.js";import{L as iRe}from"./index.esm-vsB0jBHX.js";import"./index-D4lIrffr.js";import"./index-C7yw4mlf.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";/**
+import{j as l}from"./jsx-runtime-D_zvdyIk.js";import{c as t}from"./createReactComponent-CjakwVnM.js";import{a as tRe,b as oRe,I as ne}from"./IconNumber123-BQjgxgLN.js";import{I as lRe,a as de,c as aRe,b as rRe}from"./IconUpload-BXppmzGs.js";import{_ as e}from"./iframe-CjSMhXsm.js";import{s as iRe}from"./index.esm-CJrvQL_v.js";import"./index-D4lIrffr.js";import"./index-C7yw4mlf.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";/**
  * @license @tabler/icons-react v3.31.0 - MIT
  *
  * This source code is licensed under the MIT license.
