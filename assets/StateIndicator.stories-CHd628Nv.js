@@ -1,7 +1,0 @@
-import{j as o}from"./jsx-runtime-D_zvdyIk.js";import{h as a,i as m}from"./index.esm-CJrvQL_v.js";import"./index-D4lIrffr.js";import"./index-C7yw4mlf.js";import"./index-BQQLSK9g.js";import"./index-DsJinFGm.js";const v={title:"Components/Avatar/StateIndicator",component:a},e=r=>o.jsx(a,{...r});e.args={state:"Online"};e.argTypes={state:{description:"The state of the indicator",control:{type:"select"},options:["Online","Offline","Busy","Pending","Notification"],defaultValue:"Online"}};const t=()=>o.jsx("div",{className:"gap-xlg flex flex-row",children:m.map(r=>o.jsx(a,{state:r},r))});e.__docgenInfo={description:"",methods:[],displayName:"Playground"};t.__docgenInfo={description:"",methods:[],displayName:"Overview"};e.__docgenInfo={description:"",methods:[],displayName:"Playground"};t.__docgenInfo={description:"",methods:[],displayName:"Overview"};var s,n,i;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:`(args: React.ComponentProps<typeof StateIndicator>) => {
-  return <StateIndicator {...args} />;
-}`,...(i=(n=e.parameters)==null?void 0:n.docs)==null?void 0:i.source}}};var d,c,p;t.parameters={...t.parameters,docs:{...(d=t.parameters)==null?void 0:d.docs,source:{originalSource:`() => {
-  return <div className="gap-xlg flex flex-row">
-      {State.map(state => <StateIndicator key={state} state={state} />)}
-    </div>;
-}`,...(p=(c=t.parameters)==null?void 0:c.docs)==null?void 0:p.source}}};const _=["Playground","Overview"];export{t as Overview,e as Playground,_ as __namedExportsOrder,v as default};
