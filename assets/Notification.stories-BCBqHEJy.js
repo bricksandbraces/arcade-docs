@@ -1,0 +1,34 @@
+import{j as n}from"./jsx-runtime-D_zvdyIk.js";import{aD as s}from"./ContextMenuList-BjZtb4V3.js";import"./index-CY-HDqYb.js";import{a as r}from"./index-B-lxVbXh.js";import"./index-DWvd7WUe.js";import"./index-BDYMFBcC.js";import"./index-ZRCHFLd-.js";import"./borders-N_bRvfGw.js";import"./colors-mvAPBTAn.js";import"./v4-CtRu48qb.js";const S={title:"F/Notification/Notification",component:s,argTypes:{kind:{control:{type:"select"},options:["banner","inline","toast","system"]},state:{control:{type:"select"},options:["error","info","success","warning"]}}},i=({...e})=>n.jsx(s,{...e});i.args={title:"Title",subtitle:"Subtitle",timestamp:new Date().toISOString(),kind:"banner",state:"info",onClose:r("onClose")};const o={parameters:{controls:{disable:!0}},render:()=>n.jsxs("div",{className:"gap-lg flex flex-row",children:[n.jsx("div",{className:"gap-lg flex flex-col",children:["banner","system"].map(e=>["info","success","error","warning"].map(t=>n.jsx(s,{title:"Title",subtitle:"Subtitle",kind:e,state:t,onClose:r("onClose"),className:"w-[460px]"},`${e}-${t}`)))}),n.jsx("div",{className:"gap-lg flex flex-col",children:["toast"].map(e=>["info","success","error","warning"].map(t=>n.jsx(s,{title:"Title",subtitle:"Subtitle",timestamp:"00:00 Uhr",kind:e,state:t,onClose:r("onClose"),className:"w-[204px]"},`${e}-${t}`)))}),n.jsx("div",{className:"gap-lg flex flex-col",children:["inline"].map(e=>["info","success","error","warning"].map(t=>n.jsx(s,{title:"Title",kind:e,state:t},`${e}-${t}`)))})]})};i.__docgenInfo={description:"",methods:[],displayName:"Playground"};i.__docgenInfo={description:"",methods:[],displayName:"Playground"};var a,l,c;i.parameters={...i.parameters,docs:{...(a=i.parameters)==null?void 0:a.docs,source:{originalSource:`({
+  ...args
+}: React.ComponentProps<typeof Notification> & Record<string, any>) => {
+  return <Notification {...args} />;
+}`,...(c=(l=i.parameters)==null?void 0:l.docs)==null?void 0:c.source}}};var m,p,d;o.parameters={...o.parameters,docs:{...(m=o.parameters)==null?void 0:m.docs,source:{originalSource:`{
+  parameters: {
+    controls: {
+      disable: true
+    }
+  },
+  render: () => <div className="gap-lg flex flex-row">
+      <div className="gap-lg flex flex-col">
+        {["banner", "system"].map(kind => {
+        return ["info", "success", "error", "warning"].map(state => {
+          return <Notification key={\`\${kind}-\${state}\`} title={"Title"} subtitle="Subtitle" kind={kind as (typeof NotificationKinds)[number]} state={state as (typeof NotificationStates)[number]} onClose={action("onClose")} className="w-[460px]" />;
+        });
+      })}
+      </div>
+      <div className="gap-lg flex flex-col">
+        {["toast"].map(kind => {
+        return ["info", "success", "error", "warning"].map(state => {
+          return <Notification key={\`\${kind}-\${state}\`} title={"Title"} subtitle="Subtitle" timestamp="00:00 Uhr" kind={kind as (typeof NotificationKinds)[number]} state={state as (typeof NotificationStates)[number]} onClose={action("onClose")} className="w-[204px]" />;
+        });
+      })}
+      </div>
+      <div className="gap-lg flex flex-col">
+        {["inline"].map(kind => {
+        return ["info", "success", "error", "warning"].map(state => {
+          return <Notification key={\`\${kind}-\${state}\`} title={"Title"} kind={kind as (typeof NotificationKinds)[number]} state={state as (typeof NotificationStates)[number]} />;
+        });
+      })}
+      </div>
+    </div>
+}`,...(d=(p=o.parameters)==null?void 0:p.docs)==null?void 0:d.source}}};const $=["Playground","Overview"];export{o as Overview,i as Playground,$ as __namedExportsOrder,S as default};
