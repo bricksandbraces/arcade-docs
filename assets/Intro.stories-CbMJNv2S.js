@@ -1,5 +1,0 @@
-import{j as o}from"./jsx-runtime-D_zvdyIk.js";import"./TypographyTokenRow-BUJGWCdb.js";import{S as a}from"./StorybookHeader-Bp4eMAUh.js";import"./index-A6zbrgSY.js";import"./index-CY-HDqYb.js";import"./ContextMenuList-EtAKU-e4.js";import"./index-DWvd7WUe.js";import"./index-BDYMFBcC.js";const f={title:"Welcome",parameters:{options:{showPanel:!0}}},e=()=>o.jsx("div",{className:"gap-lg flex flex-col",children:o.jsx(a,{title:"Welcome!",tag:"v2.0.0",className:"px-[80px] pt-[80px] pb-[48px]"})});e.__docgenInfo={description:"",methods:[],displayName:"Welcome"};e.__docgenInfo={description:"",methods:[],displayName:"Welcome"};var t,r,s;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`() => {
-  return <div className="gap-lg flex flex-col">
-      <StorybookHeader title="Welcome!" tag="v2.0.0" className="px-[80px] pt-[80px] pb-[48px]" />
-    </div>;
-}`,...(s=(r=e.parameters)==null?void 0:r.docs)==null?void 0:s.source}}};const g=["Welcome"];export{e as Welcome,g as __namedExportsOrder,f as default};
