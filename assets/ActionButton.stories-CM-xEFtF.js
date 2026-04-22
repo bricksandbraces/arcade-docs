@@ -1,8 +1,0 @@
-import{j as p}from"./jsx-runtime-D_zvdyIk.js";import{aL as m,i as u,j as b,aM as I,aN as e}from"./ContextMenu-F_nDtnvK.js";import"./index-CY-HDqYb.js";import{I as c}from"./IconEdit-CbmuXtFU.js";import{I as f}from"./IconRotate3d-DUYvhJ5J.js";import{I as g}from"./IconTrash-DLK9Y4Vp.js";import"./index-A6zbrgSY.js";import"./index-DWvd7WUe.js";import"./index-BDYMFBcC.js";const v=[{label:"Edit",icon:c,onClick:()=>{}},{label:"Rotate",icon:f,onClick:()=>{}},{label:"Upload",icon:I,disabled:!0,onClick:()=>{}},{label:"Delete",danger:!0,showDivider:!0,icon:g,onClick:()=>{}}],L={component:e,title:"Hendrik Supervision/ActionButton",args:{label:"Actions",kind:"secondary",size:"medium",variant:"rounded",disabled:!1,loading:!1,title:"Actions",items:v},argTypes:{kind:{control:{type:"inline-radio"},options:b},size:{control:{type:"inline-radio"},options:u},variant:{control:{type:"inline-radio"},options:m},IconLeft:{table:{disable:!0}},IconRight:{table:{disable:!0}},items:{table:{disable:!0}}},render:d=>p.jsx(e,{...d})},o={},t={args:{label:void 0,IconLeft:c,tooltipContent:"Open actions",tooltipPlacement:"bottom"}};var n,i,a;o.parameters={...o.parameters,docs:{...(n=o.parameters)==null?void 0:n.docs,source:{originalSource:"{}",...(a=(i=o.parameters)==null?void 0:i.docs)==null?void 0:a.source}}};var r,s,l;t.parameters={...t.parameters,docs:{...(r=t.parameters)==null?void 0:r.docs,source:{originalSource:`{
-  args: {
-    label: undefined,
-    IconLeft: IconEdit,
-    tooltipContent: "Open actions",
-    tooltipPlacement: "bottom"
-  }
-}`,...(l=(s=t.parameters)==null?void 0:s.docs)==null?void 0:l.source}}};const P=["Playground","IconOnly"];export{t as IconOnly,o as Playground,P as __namedExportsOrder,L as default};
