@@ -1,9 +1,0 @@
-import{j as t}from"./jsx-runtime-D_zvdyIk.js";import{c as o}from"./index-A6zbrgSY.js";import{ak as r}from"./ContextMenu-CkvOQcf9.js";import"./index-CY-HDqYb.js";import"./index-DWvd7WUe.js";import"./index-BDYMFBcC.js";const y={title:"WIP Components/FileTree/FileTree",component:r,parameters:{layout:"padded",docs:{description:{component:"Displays a hierarchical file and folder structure with expandable folders and a selectable row. Supports both controlled and uncontrolled usage for selection and expansion."}}},argTypes:{data:{control:{type:"object"}},selectedId:{control:{type:"text"}},expandedIds:{control:{type:"object"}},defaultSelectedId:{control:{type:"text"}},defaultExpandedIds:{control:{type:"object"}}}},s=[{id:"src",title:"src",type:"folder",children:[{id:"components",title:"components",type:"folder",children:[{id:"button",title:"Button.tsx",type:"file"},{id:"input",title:"Input.tsx",type:"file"}]},{id:"utils",title:"utils",type:"folder",children:[{id:"helpers",title:"helpers.ts",type:"file"}]},{id:"app",title:"App.tsx",type:"file"},{id:"index",title:"index.ts",type:"file"}]},{id:"public",title:"public",type:"folder",children:[{id:"favicon",title:"favicon.ico",type:"file"},{id:"manifest",title:"manifest.json",type:"file"}]},{id:"package",title:"package.json",type:"file"},{id:"readme",title:"README.md",type:"file"}],e={args:{data:s,defaultExpandedIds:["src"]},render:l=>t.jsx("div",{className:o("w-72"),children:t.jsx(r,{...l})})};var i,a,d;e.parameters={...e.parameters,docs:{...(i=e.parameters)==null?void 0:i.docs,source:{originalSource:`{
-  args: {
-    data: sampleData,
-    defaultExpandedIds: ["src"]
-  },
-  render: args => <div className={cx("w-72")}>
-      <FileTree {...args} />
-    </div>
-}`,...(d=(a=e.parameters)==null?void 0:a.docs)==null?void 0:d.source}}};const x=["Playground"];export{e as Playground,x as __namedExportsOrder,y as default};
