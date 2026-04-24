@@ -1,6 +1,0 @@
-import{j as i}from"./jsx-runtime-D_zvdyIk.js";import{ar as a,as as r,at as t}from"./ContextMenu-DwPyJibk.js";import"./index-CY-HDqYb.js";import{c as p}from"./index-A6zbrgSY.js";import"./index-DWvd7WUe.js";import"./index-BDYMFBcC.js";const u={title:"Fabian Supervision/FileUpload/FileItem",component:t,parameters:{layout:"centered"},argTypes:{state:{control:"inline-radio",options:r},extension:{control:"select",options:a}}},e={render:()=>i.jsxs("div",{className:p("gap-sm flex flex-col","w-[320px]"),children:[i.jsx(t,{state:"uploaded",filename:"Filename.pdf",fileSize:"12 MB",description:"Description",extension:"pdf",onRemove:()=>{}}),i.jsx(t,{state:"uploading",filename:"Filename.pdf",fileSize:"12 MB",description:"Description",extension:"pdf"})]})};var o,n,s;e.parameters={...e.parameters,docs:{...(o=e.parameters)==null?void 0:o.docs,source:{originalSource:`{
-  render: () => <div className={cx("gap-sm flex flex-col", "w-[320px]")}>
-      <FileItem state="uploaded" filename="Filename.pdf" fileSize="12 MB" description="Description" extension="pdf" onRemove={() => undefined} />
-      <FileItem state="uploading" filename="Filename.pdf" fileSize="12 MB" description="Description" extension="pdf" />
-    </div>
-}`,...(s=(n=e.parameters)==null?void 0:n.docs)==null?void 0:s.source}}};const v=["Overview"];export{e as Overview,v as __namedExportsOrder,u as default};
