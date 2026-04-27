@@ -1,6 +1,0 @@
-import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{g as n,t as r}from"./iframe-ZXKnLi48.js";import{g as i,t as a}from"./src-4oLAFcVt.js";var o,s,c,l,u;e((()=>{a(),o=t(r(),1),s=n(),c={title:`Fabian Supervision/FileUpload/DragAndDrop`,component:i,parameters:{layout:`centered`},argTypes:{disabled:{control:`boolean`},multiple:{control:`boolean`}}},l={render:()=>(0,s.jsxs)(`div`,{className:(0,o.default)(`gap-md flex flex-col`,`w-[320px]`),children:[(0,s.jsx)(i,{}),(0,s.jsx)(i,{disabled:!0})]})},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
-  render: () => <div className={cx("gap-md flex flex-col", "w-[320px]")}>
-      <DragAndDrop />
-      <DragAndDrop disabled />
-    </div>
-}`,...l.parameters?.docs?.source}}},u=[`Overview`]}))();export{l as Overview,u as __namedExportsOrder,c as default};

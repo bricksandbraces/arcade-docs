@@ -1,6 +1,0 @@
-import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{g as n,t as r}from"./iframe-ZXKnLi48.js";import{K as i,t as a}from"./src-4oLAFcVt.js";var o,s,c,l,u;e((()=>{a(),o=t(r(),1),s=n(),c={title:`Fabian Supervision/Navigation/NavigationLogo`,component:i,decorators:[e=>(0,s.jsx)(`div`,{className:(0,o.default)(`bg-background`,`p-lg`,`w-fit`),children:(0,s.jsx)(e,{})})],parameters:{controls:{disable:!0}}},l={render:()=>(0,s.jsxs)(`div`,{className:(0,o.default)(`gap-md`,`flex`,`flex-col`,`items-start`),children:[(0,s.jsx)(i,{compact:!1,label:`Logo`,compactLabel:`L`}),(0,s.jsx)(i,{compact:!0,label:`Logo`,compactLabel:`L`})]})},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
-  render: () => <div className={cx("gap-md", "flex", "flex-col", "items-start")}>
-      <NavigationLogo compact={false} label="Logo" compactLabel="L" />
-      <NavigationLogo compact label="Logo" compactLabel="L" />
-    </div>
-}`,...l.parameters?.docs?.source}}},u=[`Overview`]}))();export{l as Overview,u as __namedExportsOrder,c as default};
