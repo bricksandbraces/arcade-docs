@@ -1,0 +1,8 @@
+import{n as e}from"./chunk-jRWAZmH_.js";import{Di as t,Gr as n,Pn as r,Qn as i,Sr as a,Ur as o,Wr as s,ar as c,er as l,qn as u,t as d}from"./iframe-g3u2SE_6.js";var f,p,m,h,g;e((()=>{d(),u(),f=t(),p={component:r,title:`Hendrik Supervision/ActionButton`,tags:[`autodocs`],args:{label:`Actions`,kind:`secondary`,size:`medium`,variant:`rounded`,disabled:!1,loading:!1,title:`Actions`,items:[{label:`Edit`,icon:a,onClick:()=>void 0},{label:`Rotate`,icon:c,onClick:()=>void 0},{label:`Upload`,icon:i,disabled:!0,onClick:()=>void 0},{label:`Delete`,danger:!0,showDivider:!0,icon:l,onClick:()=>void 0}]},argTypes:{kind:{control:{type:`inline-radio`},options:o},size:{control:{type:`inline-radio`},options:s},variant:{control:{type:`inline-radio`},options:n},IconLeft:{table:{disable:!0}},IconRight:{table:{disable:!0}},items:{table:{disable:!0}}},render:e=>(0,f.jsx)(r,{...e}),parameters:{docs:{description:{component:`Split button combining a primary action with a menu of secondary actions. Use when one action is the obvious default but related options should stay one click away.`}}}},m={},h={args:{label:void 0,IconLeft:a,tooltipContent:`Open actions`,tooltipPlacement:`bottom`}},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{}`,...m.parameters?.docs?.source}}},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  args: {
+    label: undefined,
+    IconLeft: IconEdit,
+    tooltipContent: "Open actions",
+    tooltipPlacement: "bottom"
+  }
+}`,...h.parameters?.docs?.source}}},g=[`Playground`,`IconOnly`]}))();export{h as IconOnly,m as Playground,g as __namedExportsOrder,p as default};
