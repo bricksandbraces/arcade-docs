@@ -1,5 +1,0 @@
-import{n as e}from"./chunk-jRWAZmH_.js";import{Di as t}from"./iframe-DH8ttjhP.js";import{n}from"./storybook-BLpdsreQ.js";import{t as r}from"./docs-CRjbMWLe.js";var i,a,o,s;e((()=>{r(),i=t(),a={title:`Welcome`,parameters:{options:{showPanel:!0}}},o=()=>(0,i.jsx)(`div`,{className:`gap-lg flex flex-col`,children:(0,i.jsx)(n,{title:`Welcome!`,tag:`v2.0.0`,className:`px-[80px] pt-[80px] pb-[48px]`})}),o.__docgenInfo={description:``,methods:[],displayName:`Welcome`},o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`() => {
-  return <div className="gap-lg flex flex-col">
-      <StorybookHeader title="Welcome!" tag="v2.0.0" className="px-[80px] pt-[80px] pb-[48px]" />
-    </div>;
-}`,...o.parameters?.docs?.source}}},s=[`Welcome`]}))();export{o as Welcome,s as __namedExportsOrder,a as default};
