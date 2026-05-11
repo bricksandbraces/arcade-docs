@@ -1,0 +1,8 @@
+import{n as e}from"./chunk-jRWAZmH_.js";import{Kr as t,Qn as n,_i as r,_r as i,dr as a,ea as o,t as s,vi as c,wr as l,yr as u}from"./iframe-mOkBvvs0.js";var d,f,p,m,h;e((()=>{s(),a(),d=o(),f={component:n,title:`Fabian Supervision/ActionButton`,tags:[`autodocs`],args:{label:`Actions`,size:`medium`,variant:`rounded`,disabled:!1,loading:!1,title:`Actions`,items:[{label:`Edit`,icon:t,onClick:()=>void 0},{label:`Rotate`,icon:l,onClick:()=>void 0},{label:`Upload`,icon:i,disabled:!0,onClick:()=>void 0},{label:`Delete`,danger:!0,showDivider:!0,icon:u,onClick:()=>void 0}]},argTypes:{size:{control:{type:`inline-radio`},options:r},variant:{control:{type:`inline-radio`},options:c},IconLeft:{table:{disable:!0}},IconRight:{table:{disable:!0}},items:{table:{disable:!0}}},render:e=>(0,d.jsx)(n,{...e}),parameters:{docs:{description:{component:`Split button combining a primary action with a menu of secondary actions. Use when one action is the obvious default but related options should stay one click away.`}}}},p={},m={args:{label:void 0,IconLeft:t,tooltipContent:`Open actions`,tooltipPlacement:`bottom`}},p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`{}`,...p.parameters?.docs?.source}}},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
+  args: {
+    label: undefined,
+    IconLeft: IconEdit,
+    tooltipContent: "Open actions",
+    tooltipPlacement: "bottom"
+  }
+}`,...m.parameters?.docs?.source}}},h=[`Playground`,`IconOnly`]}))();export{m as IconOnly,p as Playground,h as __namedExportsOrder,f as default};

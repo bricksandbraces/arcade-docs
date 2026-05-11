@@ -1,0 +1,59 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{An as n,Cr as r,Ct as i,Vr as a,Yr as o,bt as s,ct as c,dr as l,ea as u,ha as d,hi as f,ht as p,it as m,kr as h,nt as g,ot as _,pt as v,st as y,t as b,ti as x,tt as S,ui as C,vt as w,yt as T,zi as E}from"./iframe-mOkBvvs0.js";var D,O,k,A,j,M,N,P,F,I,L,R,z,B,V,H,U,W,G;e((()=>{b(),l(),D=t(E(),1),O=t(d(),1),k=u(),A={title:`Components/AppShell`,component:S,tags:[`autodocs`],parameters:{layout:`fullscreen`,backgrounds:{default:`background-app`},docs:{description:{component:"Top-level application layout. Compound API mirrors Carbon's UI Shell: `AppShell.SideNav`, `AppShell.Header`, `AppShell.Content` (optional desktop L2 + main stack), `AppShell.Main`, `AppShell.SkipLink`, plus `AppShell.NavItem` for rail/drawer. Subscription / role gating via `allowedPaths`."}}}},j=[{path:`/studios`,icon:h,label:`Studios`},{path:`/workouts`,icon:C,label:`Workouts`},{path:`/devices`,icon:o,label:`Devices`},{path:`/settings`,icon:r,label:`Settings`}],M=e=>`/arcade-docs/assets/${e}`,N=()=>{let{railExpanded:e}=y(),t=c()===`rail`&&!e,n=M(t?`logo_small-dark.svg`:`logo_default-dark.svg`),r=M(t?`logo_small-light.svg`:`logo_default-light.svg`);return(0,k.jsx)(g,{compact:t,children:(0,k.jsxs)(k.Fragment,{children:[(0,k.jsx)(`img`,{src:n,alt:``,className:(0,D.default)(`dark:hidden`,t?`size-full object-contain`:`h-[20px] w-auto max-w-full`)}),(0,k.jsx)(`img`,{src:r,alt:``,className:(0,D.default)(`hidden`,`dark:block`,t?`size-full object-contain`:`h-[20px] w-auto max-w-full`)})]})})},P=()=>(0,k.jsxs)(`div`,{className:`gap-xs flex items-center`,children:[(0,k.jsx)(n,{size:`small`,name:`Ada Lovelace`}),(0,k.jsx)(f,{kind:`ghost`,size:`medium`,variant:`rounded`,IconLeft:x,"aria-label":`Open user menu`})]}),F=({title:e})=>(0,k.jsxs)(`div`,{className:`p-2xlg`,children:[(0,k.jsx)(`h1`,{className:`mb-md text-2xl font-semibold`,children:e}),(0,k.jsx)(`p`,{className:`text-text-label`,children:'Page content scrolls inside `AppShell.Main`. The rail (desktop) and the drawer (mobile) share the same `AppShell.NavItem` children — try the "Mobile" viewport to see the drawer.'})]}),I=({selectedPath:e})=>j.map(t=>(0,k.jsx)(S.NavItem,{path:t.path,icon:t.icon,label:t.label,selected:e===t.path},t.path)),L=()=>{let[e,t]=O.useState(`/studios`);return(0,k.jsxs)(S,{defaultRailExpanded:!1,children:[(0,k.jsx)(S.SkipLink,{}),(0,k.jsx)(S.SideNav,{logo:(0,k.jsx)(N,{}),children:j.map(n=>(0,k.jsx)(S.NavItem,{path:n.path,icon:n.icon,label:n.label,selected:e===n.path,onClick:()=>t(n.path)},n.path))}),(0,k.jsxs)(S.Body,{children:[(0,k.jsx)(S.Header,{children:(0,k.jsx)(s,{title:`Acme`,showBackButton:!1,linkGroupOne:(0,k.jsxs)(k.Fragment,{children:[(0,k.jsx)(i,{onClick:()=>{},children:`Report issue`}),(0,k.jsx)(i,{onClick:()=>{},children:`Request feature`})]}),actions:(0,k.jsx)(P,{})})}),(0,k.jsx)(S.Content,{children:(0,k.jsx)(S.Main,{contentKey:e,children:(0,k.jsx)(F,{title:j.find(t=>t.path===e)?.label??`App`})})})]})]})},R={render:()=>(0,k.jsx)(L,{})},z={render:()=>(0,k.jsxs)(S,{allowedPaths:[`/settings`],children:[(0,k.jsx)(S.SkipLink,{}),(0,k.jsx)(S.SideNav,{logo:(0,k.jsx)(N,{}),children:(0,k.jsx)(I,{selectedPath:`/settings`})}),(0,k.jsxs)(S.Body,{children:[(0,k.jsx)(S.Header,{children:(0,k.jsx)(s,{title:`Acme — billing required`,showBackButton:!1,actions:(0,k.jsx)(P,{})})}),(0,k.jsx)(S.Content,{children:(0,k.jsx)(S.Main,{children:(0,k.jsx)(F,{title:`Only /settings is reachable`})})})]})]})},B={render:()=>(0,k.jsxs)(S,{defaultRailExpanded:!0,children:[(0,k.jsx)(S.SkipLink,{}),(0,k.jsx)(S.SideNav,{logo:(0,k.jsx)(N,{}),children:(0,k.jsx)(I,{selectedPath:`/studios`})}),(0,k.jsxs)(S.Body,{children:[(0,k.jsx)(S.Header,{children:(0,k.jsx)(s,{title:`Acme`,showBackButton:!1,actions:(0,k.jsx)(P,{})})}),(0,k.jsx)(S.Content,{children:(0,k.jsx)(S.Main,{children:(0,k.jsxs)(w,{className:`py-2xlg`,mode:`fullwidth`,children:[(0,k.jsx)(p,{children:(0,k.jsxs)(`aside`,{className:`bg-background-secondary p-md gap-sm flex w-[240px] flex-col rounded-md`,children:[(0,k.jsxs)(`div`,{className:`gap-xs flex items-center`,children:[(0,k.jsx)(a,{size:16}),(0,k.jsx)(`span`,{className:`text-sm font-medium`,children:`Filters`})]}),(0,k.jsx)(f,{kind:`secondary`,size:`small`,label:`By location`}),(0,k.jsx)(f,{kind:`secondary`,size:`small`,label:`By status`})]})}),(0,k.jsx)(v,{children:(0,k.jsx)(T,{sm:4,md:8,lg:16,children:(0,k.jsx)(F,{title:`Studios — with in-page filter influencer`})})})]})})})]})]})},V=()=>{let[e,t]=O.useState(!1);return(0,k.jsxs)(S,{defaultRailExpanded:!0,l2Open:e,onL2OpenChange:t,children:[(0,k.jsx)(S.SkipLink,{}),(0,k.jsx)(S.SideNav,{logo:(0,k.jsx)(N,{}),children:(0,k.jsx)(I,{selectedPath:`/studios`})}),(0,k.jsxs)(S.Body,{children:[(0,k.jsx)(S.Header,{children:(0,k.jsx)(s,{title:`Acme`,showBackButton:!1,linkGroupOne:(0,k.jsxs)(k.Fragment,{children:[(0,k.jsx)(i,{onClick:()=>{},children:`Report issue`}),(0,k.jsx)(i,{onClick:()=>{},children:`Request feature`})]}),actions:(0,k.jsx)(P,{})})}),(0,k.jsx)(S.Content,{l2:(0,k.jsxs)(_,{ariaLabel:`Studios section`,children:[(0,k.jsx)(m,{title:`Members`,selected:!0}),(0,k.jsx)(m,{title:`Schedules`}),(0,k.jsx)(m,{title:`Billing`})]}),children:(0,k.jsx)(S.Main,{children:(0,k.jsxs)(`div`,{className:`p-2xlg`,children:[(0,k.jsx)(`h1`,{className:`mb-md text-2xl font-semibold`,children:`Desktop L2 stack`}),(0,k.jsxs)(`p`,{className:`text-text-label mb-lg max-w-prose`,children:[`Matches the App Shell template: container 1 (L2 surface) at z-10, L2 at z-11, main chrome at z-20. Toggle to slide the main panel and reveal L2 (`,(0,k.jsx)(`a`,{className:`text-text-link underline`,href:`https://www.figma.com/design/xkNZGbjGlGt3gFpuMWrdge/Arcade-Design-System?node-id=5007-3488`,target:`_blank`,rel:`noreferrer`,children:`Figma`}),`).`]}),(0,k.jsx)(f,{kind:`secondary`,size:`medium`,label:e?`Cover L2`:`Reveal L2`,onClick:()=>t(!e)})]})})})]})]})},H={render:()=>(0,k.jsx)(V,{})},U=()=>{let[e,t]=O.useState(`/studios`),[n,r]=O.useState(!0),[i,a]=O.useState(`members`),o=e===`/studios`;return(0,k.jsxs)(S,{defaultRailExpanded:!0,l2Open:o?n:!1,onL2OpenChange:r,children:[(0,k.jsx)(S.SkipLink,{}),(0,k.jsx)(S.SideNav,{logo:(0,k.jsx)(N,{}),children:j.map(n=>(0,k.jsx)(S.NavItem,{path:n.path,icon:n.icon,label:n.label,selected:e===n.path,onClick:()=>t(n.path)},n.path))}),(0,k.jsxs)(S.Body,{children:[(0,k.jsx)(S.Header,{children:(0,k.jsx)(s,{title:`Acme`,showBackButton:!1,actions:(0,k.jsx)(P,{})})}),(0,k.jsx)(S.Content,{l2:o?(0,k.jsxs)(_,{ariaLabel:`Studios`,children:[(0,k.jsx)(m,{title:`Members`,selected:i===`members`,onClick:()=>a(`members`)}),(0,k.jsx)(m,{title:`Schedules`,selected:i===`schedules`,onClick:()=>a(`schedules`)}),(0,k.jsx)(m,{title:`Billing`,selected:i===`billing`,onClick:()=>a(`billing`)}),(0,k.jsx)(m,{title:`Integrations`,selected:i===`integrations`,onClick:()=>a(`integrations`)})]}):void 0,children:(0,k.jsx)(S.Main,{contentKey:`${e}:${i}`,children:(0,k.jsxs)(`div`,{className:`p-2xlg`,children:[(0,k.jsx)(`h1`,{className:`mb-md text-2xl font-semibold`,children:j.find(t=>t.path===e)?.label??`App`}),(0,k.jsx)(`p`,{className:`text-text-label mb-lg max-w-prose`,children:o?`L2 lists studio sub-pages. On desktop, use the control below to slide the main panel and show how L2 sits under the chrome stack.`:`Pick **Studios** in the rail to mount L2 navigation next to the main area.`}),o&&(0,k.jsx)(f,{kind:`secondary`,size:`medium`,label:n?`Cover L2`:`Reveal L2`,onClick:()=>r(!n)})]})})})]})]})},W={render:()=>(0,k.jsx)(U,{})},R.parameters={...R.parameters,docs:{...R.parameters?.docs,source:{originalSource:`{
+  render: () => <PlaygroundDemo />
+}`,...R.parameters?.docs?.source},description:{story:`All slots populated, default settings. Resize the viewport to mobile to see
+the drawer take over (the mobile-menu trigger appears on the right of the
+header).`,...R.parameters?.docs?.description}}},z.parameters={...z.parameters,docs:{...z.parameters?.docs,source:{originalSource:`{
+  render: () => <AppShell allowedPaths={["/settings"]}>
+      <AppShell.SkipLink />
+      <AppShell.SideNav logo={<StoryLogo />}>
+        <NavItems selectedPath="/settings" />
+      </AppShell.SideNav>
+      <AppShell.Body>
+        <AppShell.Header>
+          <Header title="Acme — billing required" showBackButton={false} actions={<DemoHeaderActions />} />
+        </AppShell.Header>
+        <AppShell.Content>
+          <AppShell.Main>
+            <PageContent title="Only /settings is reachable" />
+          </AppShell.Main>
+        </AppShell.Content>
+      </AppShell.Body>
+    </AppShell>
+}`,...z.parameters?.docs?.source},description:{story:'`allowedPaths` filters `AppShell.NavItem` children out of both rail and\ndrawer. Use case: hide everything except `/settings` while a subscription\nis inactive — the header (including a "Manage billing" CTA) stays\nuntouched.',...z.parameters?.docs?.description}}},B.parameters={...B.parameters,docs:{...B.parameters?.docs,source:{originalSource:`{
+  render: () => <AppShell defaultRailExpanded>
+      <AppShell.SkipLink />
+      <AppShell.SideNav logo={<StoryLogo />}>
+        <NavItems selectedPath="/studios" />
+      </AppShell.SideNav>
+      <AppShell.Body>
+        <AppShell.Header>
+          <Header title="Acme" showBackButton={false} actions={<DemoHeaderActions />} />
+        </AppShell.Header>
+        <AppShell.Content>
+          <AppShell.Main>
+            <GridWrapper className="py-2xlg" mode="fullwidth">
+              <GridInfluencer>
+                <aside className="bg-background-secondary p-md gap-sm flex w-[240px] flex-col rounded-md">
+                  <div className="gap-xs flex items-center">
+                    <IconFilter size={16} />
+                    <span className="text-sm font-medium">Filters</span>
+                  </div>
+                  <Button kind="secondary" size="small" label="By location" />
+                  <Button kind="secondary" size="small" label="By status" />
+                </aside>
+              </GridInfluencer>
+              <Grid>
+                <Column sm={4} md={8} lg={16}>
+                  <PageContent title="Studios — with in-page filter influencer" />
+                </Column>
+              </Grid>
+            </GridWrapper>
+          </AppShell.Main>
+        </AppShell.Content>
+      </AppShell.Body>
+    </AppShell>
+}`,...B.parameters?.docs?.source},description:{story:"Two influencer levels: `AppShell.SideNav` is the **shell influencer**\n(Carbon's term — it reserves left-side space and the main column adapts);\ninside `AppShell.Main`, a page can use `<GridWrapper>` with its own\n`<GridInfluencer>` for an in-page secondary panel (filters, table-of-\ncontents). The two layers compose without fighting each other.\n\n`Column` spans the full 4 / 8 / 16 columns at every breakpoint so the page\ncontent fills the available width next to the in-page filter rail. Without\nexplicit `sm` / `md` spans, `Column` defaults to span-1 below `lg` and the\ncontent would render as a narrow strip.",...B.parameters?.docs?.description}}},H.parameters={...H.parameters,docs:{...H.parameters?.docs,source:{originalSource:`{
+  render: () => <DesktopL2LayersDemo />
+}`,...H.parameters?.docs?.source},description:{story:"Desktop layout from the App Shell template: stacked chrome with `l2Open`\ndriving the main surface slide.",...H.parameters?.docs?.description}}},W.parameters={...W.parameters,docs:{...W.parameters?.docs,source:{originalSource:`{
+  render: () => <WithL2NavigationDemo />
+}`,...W.parameters?.docs?.source}}},G=[`Playground`,`GatedRoutes`,`WithGridInfluencer`,`DesktopL2Layers`,`WithL2Navigation`]}))();export{H as DesktopL2Layers,z as GatedRoutes,R as Playground,B as WithGridInfluencer,W as WithL2Navigation,G as __namedExportsOrder,A as default};
