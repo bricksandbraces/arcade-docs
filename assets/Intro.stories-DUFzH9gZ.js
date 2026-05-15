@@ -1,0 +1,5 @@
+import{n as e}from"./chunk-jRWAZmH_.js";import{eo as t}from"./iframe-CJs0JiNN.js";import{n}from"./storybook-BUWz6NYd.js";import{t as r}from"./docs-DeRYKjla.js";var i,a,o,s;e((()=>{r(),i=t(),a={title:`Welcome/Welcome`,parameters:{options:{showPanel:!0}}},o=()=>(0,i.jsx)(`div`,{className:`gap-lg flex flex-col`,children:(0,i.jsx)(n,{title:`Welcome to the Design System powering every our products. TypeScript-native, token-based, and built for products that look as good as they perform.`,tag:`v2.0.0`,className:`px-[80px] pt-[80px] pb-[48px]`})}),o.__docgenInfo={description:``,methods:[],displayName:`Welcome`},o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`() => {
+  return <div className="gap-lg flex flex-col">
+      <StorybookHeader title="Welcome to the Design System powering every our products. TypeScript-native, token-based, and built for products that look as good as they perform." tag="v2.0.0" className="px-[80px] pt-[80px] pb-[48px]" />
+    </div>;
+}`,...o.parameters?.docs?.source}}},s=[`Welcome`]}))();export{o as Welcome,s as __namedExportsOrder,a as default};
