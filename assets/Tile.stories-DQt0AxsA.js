@@ -1,5 +1,0 @@
-import{n as e}from"./chunk-jRWAZmH_.js";import{Gr as t,gr as n,io as r,t as i,yo as a}from"./iframe-Cw936qOG.js";var o,s,c,l,u;e((()=>{i(),a(),o=r(),s={title:`Display & Data/Cards/Tile`,component:t,tags:[`autodocs`],parameters:{docs:{description:{component:`Neutral surface container with the standard card styling. Use to group content into visual blocks without interactive behavior.`}}}},c=e=>(0,o.jsx)(t,{...e,className:`h-[218px] w-[388px]`}),l={render:()=>(0,o.jsx)(n,{})},c.__docgenInfo={description:``,methods:[],displayName:`Playground`},c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`(args: React.ComponentProps<typeof Tile> & Record<string, any>) => {
-  return <Tile {...args} className="h-[218px] w-[388px]" />;
-}`,...c.parameters?.docs?.source}}},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
-  render: () => <CardSkeleton />
-}`,...l.parameters?.docs?.source}}},u=[`Playground`,`Skeleton`]}))();export{c as Playground,l as Skeleton,u as __namedExportsOrder,s as default};
