@@ -1,7 +1,0 @@
-import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{Dt as n,Et as r,So as i,Vr as a,so as o,t as s}from"./iframe-3aEPOCfs.js";var c,l,u,d,f;e((()=>{c=t(i(),1),s(),l=o(),u={title:`Inputs & Controls/TimeInput`,component:r,tags:[`autodocs`],argTypes:{size:{control:`inline-radio`,options:n},disabled:{control:`boolean`},hideLabel:{control:`boolean`},min:{control:`number`},max:{control:`number`},step:{control:`number`},label:{control:`text`},helperText:{control:`text`},state:{control:`inline-radio`,options:a}},args:{id:`playground-time-input`,label:`Duration`,size:`medium`,step:30,helperText:`Format mm:ss`},parameters:{docs:{description:{component:"Time input built on the same primitives as `NumberInput`. The value is a number of **seconds**; the field displays and parses `mm:ss` (or `h:mm:ss`). The +/- buttons and arrow keys step by `step` seconds (default 30). Use `trailingSlot` to add controls before the steppers (e.g. a colour picker)."}}}},d={render:e=>{let[t,n]=(0,c.useState)(e.value??90);return(0,l.jsx)(r,{...e,value:t,onValueChange:n})}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
-  render: args => {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [value, setValue] = useState<number | undefined>(args.value as number | undefined ?? 90);
-    return <TimeInput {...args} value={value} onValueChange={setValue} />;
-  }
-}`,...d.parameters?.docs?.source}}},f=[`Playground`]}))();export{d as Playground,f as __namedExportsOrder,u as default};
