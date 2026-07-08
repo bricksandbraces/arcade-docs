@@ -1,0 +1,5 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{D as n,E as r,Ka as i,so as a,t as o}from"./iframe-wZ4TEM6N.js";var s,c,l,u,d,f;e((()=>{o(),s=t(i(),1),c=a(),l={title:`Inputs & Controls/FileUpload/Extension`,component:r,tags:[`autodocs`],parameters:{layout:`centered`}},u={render:()=>(0,c.jsx)(`div`,{className:(0,s.default)(`gap-md flex flex-col items-center`),children:n.map(e=>(0,c.jsx)(r,{extension:e},e))})},d=u,u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  render: () => <div className={cx("gap-md flex flex-col items-center")}>
+      {ExtensionTypes.map(extension => <Extension key={extension} extension={extension} />)}
+    </div>
+}`,...u.parameters?.docs?.source}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`Overview`,...d.parameters?.docs?.source}}},f=[`Overview`,`Playground`]}))();export{u as Overview,d as Playground,f as __namedExportsOrder,l as default};
