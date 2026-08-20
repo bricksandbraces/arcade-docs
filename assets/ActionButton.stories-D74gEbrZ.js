@@ -1,8 +1,0 @@
-import{n as e}from"./chunk-jRWAZmH_.js";import{Aa as t,Di as n,Mi as r,Ti as i,_i as a,ja as o,po as s,ri as c,t as l,ta as u}from"./iframe-CS3hq5x3.js";var d,f,p,m,h;e((()=>{l(),a(),d=s(),f={component:c,title:`Buttons & Actions/ActionButton`,tags:[`autodocs`],args:{label:`Actions`,size:`medium`,variant:`rounded`,disabled:!1,loading:!1,title:`Actions`,items:[{label:`Edit`,icon:u,onClick:()=>void 0},{label:`Rotate`,icon:r,onClick:()=>void 0},{label:`Upload`,icon:i,disabled:!0,onClick:()=>void 0},{label:`Delete`,danger:!0,showDivider:!0,icon:n,onClick:()=>void 0}]},argTypes:{size:{control:{type:`inline-radio`},options:t},variant:{control:{type:`inline-radio`},options:o},IconLeft:{table:{disable:!0}},IconRight:{table:{disable:!0}},items:{table:{disable:!0}}},render:e=>(0,d.jsx)(c,{...e}),parameters:{docs:{description:{component:`Split button combining a primary action with a menu of secondary actions. Use when one action is the obvious default but related options should stay one click away.`}}}},p={},m={args:{label:void 0,IconLeft:u,tooltipContent:`Open actions`,tooltipPlacement:`bottom`}},p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`{}`,...p.parameters?.docs?.source}}},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
-  args: {
-    label: undefined,
-    IconLeft: IconEdit,
-    tooltipContent: "Open actions",
-    tooltipPlacement: "bottom"
-  }
-}`,...m.parameters?.docs?.source}}},h=[`Playground`,`IconOnly`]}))();export{m as IconOnly,p as Playground,h as __namedExportsOrder,f as default};
