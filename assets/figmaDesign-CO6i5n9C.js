@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-jRWAZmH_.js";var t,n=e((()=>{t=e=>[{name:`Open in Figma`,type:`link`,url:e},{name:`Embedded preview`,type:`figma`,url:e}]}));export{n,t};
