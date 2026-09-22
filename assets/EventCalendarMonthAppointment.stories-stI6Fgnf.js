@@ -1,7 +1,0 @@
-import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{Ds as n,En as r,fs as i,t as a,xn as o}from"./iframe-BdpsU0Re.js";import{n as s,t as c}from"./figmaDesign-CO6i5n9C.js";import{a as l,i as u,n as d,t as f}from"./figmaFrame-DOuY6TI6.js";var p,m,h,g,_,v,y;e((()=>{a(),n(),s(),l(),d(),p=i(),m=t(n(),1),h={yellow:`5578:17358`,red:`5578:17364`,green:`5578:17370`,blue:`5578:17376`,cyan:`5578:17382`,orange:`5578:17388`,gray:`5578:17394`,purple:`5578:17400`},g={title:`Display & Data/EventCalendar/EventCalendarMonthAppointment`,component:o,tags:[`autodocs`],parameters:{design:c(u(`5578:17353`))},argTypes:{color:{control:`select`,options:r}},args:{title:`Title`,color:`yellow`},render:e=>(0,p.jsx)(f,{node:h[e.color??`yellow`],width:98,height:16,children:(0,p.jsx)(o,{...e})})},_={},v={render:e=>(0,p.jsx)(`div`,{className:`gap-sm flex flex-col`,style:{width:98},children:r.map(t=>(0,m.createElement)(o,{...e,key:t,color:t}))})},_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{}`,..._.parameters?.docs?.source}}},v.parameters={...v.parameters,docs:{...v.parameters?.docs,source:{originalSource:`{
-  render: args => <div className="gap-sm flex flex-col" style={{
-    width: 98
-  }}>
-      {EventCalendarColors.map(color => <EventCalendarMonthAppointment {...args} key={color} color={color} />)}
-    </div>
-}`,...v.parameters?.docs?.source}}},y=[`FullDay`,`AllColors`]}))();export{v as AllColors,_ as FullDay,y as __namedExportsOrder,g as default};
