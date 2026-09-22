@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-jRWAZmH_.js";var t,n,r,i=e((()=>{t=`https://www.figma.com/design/xkNZGbjGlGt3gFpuMWrdge/Arcade-Design-System`,n=e=>`${t}?node-id=${e.replace(`:`,`-`)}`,r=new Date(2026,8,4,13,28)}));export{n,i as r,r as t};
