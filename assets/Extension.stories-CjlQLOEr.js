@@ -1,5 +1,0 @@
-import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{A as n,i as r,k as i,rs as a,vs as o}from"./iframe-vatATh5Q.js";import{n as s,t as c}from"./figmaDesign-CO6i5n9C.js";var l,u,d,f,p,m;e((()=>{r(),l=t(a(),1),s(),u=o(),d={title:`Inputs & Controls/FileUpload/Extension`,component:i,tags:[`autodocs`],parameters:{design:c(`https://www.figma.com/design/xkNZGbjGlGt3gFpuMWrdge/Arcade-Design-System?node-id=2612-14537`),layout:`centered`}},f={render:()=>(0,u.jsx)(`div`,{className:(0,l.default)(`gap-md flex flex-col items-center`),children:n.map(e=>(0,u.jsx)(i,{extension:e},e))})},p=f,f.parameters={...f.parameters,docs:{...f.parameters?.docs,source:{originalSource:`{
-  render: () => <div className={cx("gap-md flex flex-col items-center")}>
-      {ExtensionTypes.map(extension => <Extension key={extension} extension={extension} />)}
-    </div>
-}`,...f.parameters?.docs?.source}}},p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`Overview`,...p.parameters?.docs?.source}}},m=[`Overview`,`Playground`]}))();export{f as Overview,p as Playground,m as __namedExportsOrder,d as default};
