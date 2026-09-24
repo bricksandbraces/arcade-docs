@@ -1,0 +1,11 @@
+import{n as e}from"./chunk-jRWAZmH_.js";import{Ds as t,ii as n,ri as r,t as i}from"./iframe-_Ug8tvbS.js";import{n as a,t as o}from"./figmaDesign-DDiUnvXT.js";var s,c,l,u,d,f;e((()=>{i(),a(),s=t(),c={parameters:{design:o(`https://www.figma.com/design/xkNZGbjGlGt3gFpuMWrdge/Arcade-Design-System?node-id=2419-29864&m=dev`)},title:`Display & Data/DataTable/TableBadge`,component:r,argTypes:{color:{control:`inline-radio`,options:n}},args:{color:`red`,children:`Badge`}},l={},u={args:{onClick:()=>{}}},d={render:()=>(0,s.jsx)(`div`,{className:`gap-md flex flex-wrap items-center`,children:n.map(e=>(0,s.jsx)(r,{color:e,children:`Badge`},e))})},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{}`,...l.parameters?.docs?.source}}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  args: {
+    onClick: () => {}
+  }
+}`,...u.parameters?.docs?.source}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
+  render: () => <div className="gap-md flex flex-wrap items-center">
+      {TableBadgeColors.map(color => <TableBadge key={color} color={color}>
+          Badge
+        </TableBadge>)}
+    </div>
+}`,...d.parameters?.docs?.source}}},f=[`Playground`,`Interactive`,`AllColors`]}))();export{d as AllColors,u as Interactive,l as Playground,f as __namedExportsOrder,c as default};
