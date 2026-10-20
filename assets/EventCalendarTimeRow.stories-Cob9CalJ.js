@@ -1,6 +1,0 @@
-import{n as e}from"./chunk-jRWAZmH_.js";import{Ws as t,kn as n,ks as r,t as i}from"./iframe-BqvyX73F.js";import{n as a,t as o}from"./figmaDesign-DDiUnvXT.js";import{n as s,t as c}from"./figmaFrame-BSUZzNkB.js";import{n as l,r as u}from"./figma-DgE6KChR.js";var d,f,p,m,h;e((()=>{i(),t(),a(),u(),s(),d=r(),f={title:`Display & Data/EventCalendar/EventCalendarTimeRow`,component:n,tags:[`autodocs`],parameters:{design:o(l(`5578:16322`))},args:{time:new Date(2026,8,4,16,8),columns:7,todayColumn:3},render:e=>(0,d.jsx)(c,{node:`5578:16322`,width:1e3,height:32,children:(0,d.jsx)(n,{...e})})},p={},m={args:{columns:1,todayColumn:0}},p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`{}`,...p.parameters?.docs?.source}}},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
-  args: {
-    columns: 1,
-    todayColumn: 0
-  }
-}`,...m.parameters?.docs?.source}}},h=[`Week`,`Day`]}))();export{m as Day,p as Week,h as __namedExportsOrder,f as default};
