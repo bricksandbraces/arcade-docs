@@ -1,8 +1,0 @@
-import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{Ms as n,bi as r,pt as i,qs as a,t as o}from"./iframe-D5kQRWDH.js";import{n as s,t as c}from"./figmaDesign-DDiUnvXT.js";import{n as l,t as u}from"./figmaFrame-DGLkUlD2.js";var d,f,p,m,h,g,_,v;e((()=>{o(),d=t(a(),1),s(),l(),f=n(),{action:p}=__STORYBOOK_MODULE_ACTIONS__,m={parameters:{design:c(`https://www.figma.com/design/xkNZGbjGlGt3gFpuMWrdge/Arcade-Design-System?node-id=5776-31232`),docs:{description:{component:"Avatar and chevron as one control in the header. Use it as the `trigger` of a `UserProfile` so the whole pill opens the menu, not just the chevron."}}},title:`Layout & Structure/Header/Avatar`,component:i,tags:[`autodocs`],argTypes:{expanded:{control:`boolean`},label:{control:`text`}}},h={closed:`5776:31231`,open:`5776:31293`},g=({expanded:e=!1,label:t,onClick:n})=>{let[a,o]=(0,d.useState)(e);return(0,d.useEffect)(()=>o(e),[e]),(0,f.jsx)(u,{node:a?h.open:h.closed,width:64,height:32,children:(0,f.jsx)(i,{avatar:(0,f.jsx)(r,{size:`small`,name:`Hendrik Ulbrich`}),label:t,expanded:a,onClick:e=>{o(e=>!e),n?.(e)}})})},_={render:e=>(0,f.jsx)(g,{...e}),args:{label:`Open account menu`,expanded:!1,onClick:p(`onClick`)}},_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{
-  render: args => <PlaygroundControl {...args} />,
-  args: {
-    label: "Open account menu",
-    expanded: false,
-    onClick: action("onClick")
-  }
-}`,..._.parameters?.docs?.source}}},v=[`Playground`]}))();export{_ as Playground,v as __namedExportsOrder,m as default};
