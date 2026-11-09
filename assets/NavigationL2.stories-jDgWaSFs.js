@@ -1,0 +1,9 @@
+import{n as e,o as t}from"./chunk-jRWAZmH_.js";import{Tc as n,Ts as r,it as i,ot as a,rt as o,t as s,uc as c}from"./iframe-BGZyYePL.js";var l,u,d,f,p,m,h,g,_;e((()=>{s(),l=t(n(),1),u=c(),d=[`Profile`,`Team`,`Billing`,`Notifications`],f=()=>{let[e,t]=(0,l.useState)(d[0]);return(0,u.jsxs)(u.Fragment,{children:[d.map(n=>(0,u.jsx)(i,{title:n,selected:e===n,onClick:()=>t(n)},n)),(0,u.jsx)(i,{title:`Audit log`,disabled:!0})]})},p={title:`Components/Navigation/NavigationL2`,component:a,subcomponents:{NavigationL2Item:i},tags:[`autodocs`],argTypes:{layout:{control:`inline-radio`,options:[`default`,`drawer`]},ariaLabel:{control:`text`},header:{control:!1},footer:{control:!1},children:{control:!1}},args:{layout:`default`,ariaLabel:`Settings sections`,children:(0,u.jsx)(f,{})},parameters:{docs:{description:{component:"Secondary sidebar next to the primary `Navigation`, filled with text-only `NavigationL2Item` rows. The `default` layout only shows from `md` up, `drawer` is the variant for `NavigationDrawer`."}}},decorators:[e=>(0,u.jsx)(`div`,{className:`bg-background-navigation-02 flex h-96 w-fit`,children:(0,u.jsx)(e,{})})]},m={},h={args:{header:(0,u.jsx)(o,{children:`Settings`})}},g={args:{footer:(0,u.jsx)(r,{kind:`secondary`,size:`small`,label:`Invite people`})}},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{}`,...m.parameters?.docs?.source}}},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  args: {
+    header: <NavigationHeader>Settings</NavigationHeader>
+  }
+}`,...h.parameters?.docs?.source}}},g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  args: {
+    footer: <Button kind="secondary" size="small" label="Invite people" />
+  }
+}`,...g.parameters?.docs?.source}}},_=[`Playground`,`WithHeader`,`WithFooter`]}))();export{m as Playground,g as WithFooter,h as WithHeader,_ as __namedExportsOrder,p as default};
