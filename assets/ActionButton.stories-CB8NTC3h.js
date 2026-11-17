@@ -1,0 +1,8 @@
+import{n as e}from"./chunk-jRWAZmH_.js";import{As as t,Ho as n,ba as r,fc as i,ks as a,qa as o,ro as s,t as c,to as l,uo as u}from"./iframe-B-vVAKgp.js";import{n as d,t as f}from"./figmaDesign-DLesXS3c.js";var p,m,h,g,_;e((()=>{c(),o(),d(),p=i(),m={component:r,title:`Components/ActionButton`,tags:[`autodocs`],args:{label:`Actions`,size:`medium`,variant:`rounded`,disabled:!1,loading:!1,title:`Actions`,items:[{label:`Edit`,icon:n,onClick:()=>void 0},{label:`Rotate`,icon:u,onClick:()=>void 0},{label:`Upload`,icon:l,disabled:!0,onClick:()=>void 0},{label:`Delete`,danger:!0,showDivider:!0,icon:s,onClick:()=>void 0}]},argTypes:{size:{control:{type:`inline-radio`},options:a},variant:{control:{type:`inline-radio`},options:t},IconLeft:{table:{disable:!0}},IconRight:{table:{disable:!0}},items:{table:{disable:!0}}},render:e=>(0,p.jsx)(r,{...e}),parameters:{design:f(`https://www.figma.com/design/GPsOC3XQdyxUOZxb7qNgJu/Studio---Orapulse?node-id=360-9836`),docs:{description:{component:`Split button combining a primary action with a menu of secondary actions. Use when one action is the obvious default but related options should stay one click away.`}}}},h={},g={args:{label:void 0,IconLeft:n,tooltipContent:`Open actions`,tooltipPlacement:`bottom`}},h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{}`,...h.parameters?.docs?.source}}},g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`{
+  args: {
+    label: undefined,
+    IconLeft: IconEdit,
+    tooltipContent: "Open actions",
+    tooltipPlacement: "bottom"
+  }
+}`,...g.parameters?.docs?.source}}},_=[`Playground`,`IconOnly`]}))();export{g as IconOnly,h as Playground,_ as __namedExportsOrder,m as default};
