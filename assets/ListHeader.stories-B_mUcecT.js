@@ -1,0 +1,8 @@
+import{n as e}from"./chunk-jRWAZmH_.js";import{_t as t,gt as n,qc as r,t as i,vt as a}from"./iframe-BmBSRsrc.js";import{n as o,t as s}from"./figmaDesign-D2IpkIki.js";var c,l,u,d,f;e((()=>{i(),o(),c=r(),l={title:`Components/List/ListHeader`,component:n,tags:[`autodocs`],parameters:{design:s(`https://www.figma.com/design/xkNZGbjGlGt3gFpuMWrdge/Arcade-Design-System?node-id=6336-3770`),docs:{description:{component:"Section label above a `List`. Give it an `id` and point the list's `aria-labelledby` at it to name the group."}}},args:{label:`Label`},decorators:[e=>(0,c.jsx)(`div`,{className:`max-w-[720px]`,children:(0,c.jsx)(e,{})})]},u={},d={render:e=>(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(n,{...e,id:`list-header-story`}),(0,c.jsx)(t,{"aria-labelledby":`list-header-story`,children:(0,c.jsx)(a,{label:`Label`,value:`Value`,href:`#item`})})]})},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{}`,...u.parameters?.docs?.source}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
+  render: args => <>
+      <ListHeader {...args} id="list-header-story" />
+      <List aria-labelledby="list-header-story">
+        <ListItem label="Label" value="Value" href="#item" />
+      </List>
+    </>
+}`,...d.parameters?.docs?.source}}},f=[`Playground`,`AboveList`]}))();export{d as AboveList,u as Playground,f as __namedExportsOrder,l as default};
